@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    margin-top: 2%;
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+
+#nav_bar {
+    position: absolute;
+    right: 3%;
+    display: flex;
+}
+
+#nav_bar li {
+    font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+#nav_bar a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+#sign_in {
+    background: rgb(33, 128, 253);
+}
+
+#sign_in a {
+    color: white;
+}
+
+.google-image {
+    display: flex;
+    margin-top: 160px;
+    width: 100%;
+    justify-content: center;
+}
+
+.form-search {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+#form input {
+    width: 480px;
+    border-radius: 20px;
+    height: 36px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+    background: rgb(240, 237, 237);
+}
+
+.footer-left {
+    display: flex;
+    padding-left: 10px;
+}
+
+.footer-right {
+    display: flex;
+    padding-right: 5px;
+}
+
+footer li {
+    list-style: none;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 1.1rem;
+}
